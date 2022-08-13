@@ -1,0 +1,198 @@
+* {
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    padding:0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img {
+    width: auto;
+    height: 50px;
+}
+.mnue-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.mnue-items a {
+    text-decoration: none;
+    color: black;
+}
+.mnue-email {
+    display: flex;
+    align-items: center;
+}
+.mnue-email a {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+.header {
+    padding: 5% 15% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.header .header-img {
+
+}
+.header .header-img img {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+}
+.header .header-text {
+    padding-top: 40px;
+    line-height: 35px;
+}
+.header .header-text button {
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.main-contact {
+    padding: 5% 10% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.logo {
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 4%;
+}
+.logo img {
+    width: 20px;
+    /* height: 20px; */
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px;
+}
+.p {
+    font-weight: bold;
+}
+.p-2 {
+    margin-top: 8px;
+}
+.contact-right {
+    width: 50%;
+}
+.contact-right img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* .......  style Page index2 ....... */
+.nav-page2 {
+    padding: 4% 10% 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.name {
+    font-weight: bold;
+}
+.mnue-bar {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.mnue-bar a {
+    text-decoration: none;
+    color: rgb(201, 182, 182);
+    font-weight: bold;
+}
+.mnue-bar a:hover {
+    color: black;
+}
+.header-page2 {
+    padding: 10% 5% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-page2 .first {
+    line-height: 40px;
+}
+.header-page2 .second {
+    width: 30%;
+    line-height: 25px;
+}
+.header-page2 .second button {
+    border: none;
+    margin-top: 60px;
+}
+.header-page2 .second button img {
+    width: auto;
+    height: 35px;
+}
+
+.header-page2 .third img {
+    border-radius: 20%;
+    margin-left: 10%;
+    width: auto;
+    height: 250px;
+}
+footer {
+    margin-top: 10px;
+    clear: both;
+    height: 160px;
+    background-color: rgb(134, 189, 189);
+    display: flex;
+    justify-content: space-between;
+}
+.follows {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.follows .one {
+    width: 20%;
+}
+.follows .two {
+    width: 20%;
+}
+.follows .three {
+    width: 20%;
+}
+.follows .one img {
+    width: auto;
+    height: 30px;
+}
+.photos {
+    width: 40%;
+    border-left: 2px solid black;
+}
+.photos img {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.follows .two {
+    display: flex;
+    flex-direction: column;
+}
+.follows  {
+    padding-top: 80px;
+}
+.t {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
